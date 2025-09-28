@@ -1,0 +1,94 @@
+.logo {
+    font-weight: 700;
+    color: #198754;
+    text-decoration: none;
+    font-size: 1.5rem;
+    position: relative;
+    display: inline-block;
+}
+
+.logo span {
+    color: #000;
+    font-size: 0.6em;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    right: -1.5em;
+    line-height: 1;
+}
+
+.feature-box {
+    position: relative;
+    padding-left: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.feature-box::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.4rem;
+    width: 4px;
+    height: 1.2rem;
+    background-color: #198754;
+    border-radius: 2px;
+}
+
+.parent-skin {
+    background-color: #f0ba7c;
+    padding: 2rem;
+}
+
+.parent-skin {
+    background-color: #f0ba7c;
+    padding: 2rem 1rem;
+}
+
+.child-white {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    position: relative;
+    min-height: 280px;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+}
+
+.child-white img.center {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.child-white img.bottom-right {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+    height: auto;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 130px;
+    height: auto;
+}
+
+.overlap-wrapper {
+    gap: 0;
+}
+
+.overlap-img {
+    width: 200px;
+    margin-left: -120px;
+}
+
+.overlap-img:first-child {
+    margin-left: 0;
+}
